@@ -1,6 +1,6 @@
 <?php 
-#   OpnLeaf, The stoners managment platform
-#   Index.php
+#   OpnLeaf, The Stoners Open-Source Weed Logging Platform
+#   index.php
 #   Refrence list:
 #
 #
@@ -12,4 +12,6 @@ session_set_cookie_params($cookie_lifetime, '/');
 session_start();
 
 #   database connections
-require_once('user_db.php');
+require_once('database/user_db.php');
+
+#   
